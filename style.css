@@ -27,7 +27,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
     background-color: var(--VeryPaleCyan);
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 nav{
@@ -65,7 +65,7 @@ nav ul{
   justify-content: center;
   align-items: center;
   gap: 25px;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 .build-text{
@@ -270,12 +270,4 @@ footer{
 .text-footer .text a{
   color: white;
   font-family: var(--opensans);
-}
-
-@media  screen (max-width: 1000px) {
-  body{
-    width: 100%;
-  }
-
-
 }
