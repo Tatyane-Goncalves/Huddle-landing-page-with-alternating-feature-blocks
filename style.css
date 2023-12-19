@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --VeryPaleCyan: hsl(193, 100%, 96%);    
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+
+    --opensans: 'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+  width: 100%;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: var(--VeryPaleCyan);
+    padding: 2rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.btn-header{
+  display: block;
+  background-color: white;
+  font-family: var(--poppins);
+  border-radius: 25px;
+  width: 100px;
+  height: 1.8rem;
+  border: none;
+  box-shadow: 5px 5px 10px 5px rgba(155, 141, 141, 0.1);
+  color: var(--GrayishBlue);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.build{
+  background-color: var(--VeryPaleCyan);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 2rem;
+}
+
+.build-text{
+  width: 700px;
+}
+
+
+.build-text h1{
+  font-family: var(--poppins);
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.build-text p{
+  font-family: var(--opensans);
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.img-build{
+  width: 100%;
+}
+
+.img-build img{
+  width: 100%;
+}
+
+.btn{
+  background-color: var(--Pink);
+  width: 250px;
+  height: 2rem;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-family: var(--poppins);
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: white;
+  border: 1px solid var(--Pink);
+  color: var(--Pink);
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  box-shadow: 5px 5px 10px 10px rgba(155, 141, 141, 0.1);  
+  width: 1000px;
+  height: 400px; 
+  margin: 3rem 0;
+  border-radius: 9px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 2rem;
+}
+
+
+.text-card{
+  width: 1000px;
+}
+
+.text-card h2{
+  font-family: var(--poppins);
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.text-card p{
+  font-family: var(--opensans);
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.img{
+  width: 100%;
+}
+
+.img img{
+  width: 80%;
+}
+
+
+.ready-card{
+  height: 300px;
+  border-radius: 9px;
+  align-items: center;
+  text-align: center;
+  padding: 6rem;
+}
+
+.ready-card h2{
+  font-family: var(--poppins);
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+
+
+
+footer{
+  background-color: var(--VeryDarkCyan);
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.contats{
+  width: 400px;
+}
+
+.contats img{
+  padding-bottom: 1.5rem;
+  width: 190px;
+}
+
+.contats p{
+  font-family: var(--opensans);
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 6rem;
+  width: 150px;
+}
+
+.links a{
+  color: var(--GrayishBlue);
+  font-family: var(--opensans);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.links a:hover{
+  color: white;
+  font-weight: 700;
+
+}
+
+.social-media{
+  display: flex;
+  align-self: center;
+  gap: 25px;
+}
+
+.social-media a{
+  color: var(--GrayishBlue);
+  cursor: pointer;
+}
+
+.social-media a:hover{
+  color: white;
+
+}
+
+.social-media i{
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 2px solid var(--GrayishBlue);
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.social-media i:hover{
+  border: 2px solid white;
+}
+
+.text-footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+.text-footer .text p{
+  text-align: center;
+  color: var(--GrayishBlue);
+  font-family: var(--opensans);
+}
+
+.text-footer .text a{
+  color: white;
+  font-family: var(--opensans);
+}
+
+@media  screen (max-width: 1000px) {
+  body{
+    width: 100%;
+  }
+
+
+}
